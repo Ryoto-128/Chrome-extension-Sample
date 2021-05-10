@@ -3,12 +3,13 @@
     "name": "sample",
     "description": "sample script",
     "version": "1.0.0",
+    "options_page": "options.html",
 
     "background": {
         "service_worker": "background.js"
     },
 
-    "permissions": ["storage"],
+    "permissions": ["storage", "activeTab", "scripting"],
 
     "action": {
     "default_popup": "popup.html",
